@@ -1,0 +1,43 @@
+Two Are Stronger Than One
+=========================
+
+I had an assignment to pair up with someone that I've never worked with before and do something called "pair programming." This is an apparently common practice in the working world where two people sit at the same computer and work on a bit of code together. The assignment was to pick an NPM module that we hadn't worked with before or talked about in class, create a simple program using this new module, and write a short blog post about eithe the module or the experience.
+
+I don't do short. Ever.
+
+1. The module
+
+We selected the Coffee-script module. I'd never heard of it before it was suggested, but I can't say that I was disappointed by it. In a lot of ways it's easier than straight JavaScript. The syntax was much more straight-forward, and a lot of things seemed simpler than what you would have to do in JS. I think that once a person gets used to using Coffee-script that it would involve a lot less typing, and it certainly comes out easier to read.
+
+For instance, if we were to make a simple code in JavaScript that declared a variable 'x' and printed to the console the numbers 1 - 10 in ascending order, the code would look something like this:
+
+var x
+
+for(i = 1; i <= 10, i++) {
+  console.log(x);
+}
+
+That's not too bad, but something more complex could get hairy fast!
+
+In Coffee-script, it's a bit easier. All of that could be simplified down to:
+
+x for x in [1..10]
+console.log x
+
+Simple. What was 4 lines of code was reduced to 2 lines. Who doesn't love that?
+
+Our simple program was just a regular old guessing game where the code generates a number and prompts the poor victim to guess a number between 1 and 10. If they guess right, they win; if they guess wrong, they had to keep guessing until they got it right. Simple. Nothing to get excited about.
+
+Of course, nothing is ever that simple. Coffee-script might be easy to read, but it does require you to learn something. I mean, we didn't just sit down and spit out coffee-script. No, we had to hunt to make the program do what we wanted it to do. Figuring out how to do the wrong guess loop was a challenge.
+
+Overall, I like Coffee-script. It's fun. It's mostly intuitive. It takes less typing, and all it requires is that you install the module. Easy.
+
+2. Pairing up
+
+I've worked in a lot of teams over the years, but this was a different experience. Usually when I've had someone hanging over my shoulder watching me work it's been an intrusion. All I wanted was for the other person to just go away. This experience was different. It was more collaborative. We started off working out our program in regular JavaScript so that we knew it would do what we wanted. Even there we had some subtle differences in our styles and how we thought.
+
+One of the things I most liked was the willingness to try the other's suggestions. They didn't always work, but the experimentation enhanced the learning. We would run into a problem and I'd suggest changing around a few lines. I could tell he was skeptical, but he did it anyway. Same thing happened when the suggestion was on the other foot. We tried something and it worked or it didn't. No lives were lost because we thought there was a different route to take. 
+
+I think that out of this experience I got as much as I gave. In the JavaScript portion of our show he showed me some methods that I hadn't considered. I showed him all sorts of tips and tricks using the terminal. Even better, he'd researched a problem for the prompt that I was just starting to consider for another assignment, and I got to use the benefits of his labor later that day. I don't know about you, but I consider that a win.
+
+I'm not likely to be given a choice on if I do pair programming again. If it's as common a practice in the real world as we've been told, I'm going to do it if I want to eat, and we've already been warned that we'll be doing it in class again. But I'll approach it with a lot less trepidation ($.25 word!) next time. Good stuff. I highly recommend.
